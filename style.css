@@ -12,10 +12,10 @@ html, body{
 
 nav{
 	height: 100%;
-	background-color: rgb(242,73,29);
+	background-color: #82c2c5;
 	width: 80px;
 	right: 0px;
-	box-shadow: 1px 0 10px rgb(242,73,29);
+	box-shadow: 1px 0 10px #82c2c5;
 	position: fixed;
 	z-index: 10;
 	text-align: center;
@@ -42,10 +42,16 @@ nav ul li{
 	height: 8px;
 	width: 8px;
 	border-radius: 100%;
-	background: rgba(255, 255, 255, 0.8);	
+	background: #fff;	
 	margin: 50px 0;
 	position: relative;
 	text-align: center;
+    box-shadow: 0px 0px 6px 2px rgb(247, 224, 224);
+}
+
+nav ul li:hover{
+	cursor: pointer;
+	cursor: hand;
 }
 
 nav ul li:first-child{
@@ -117,7 +123,7 @@ body > :nth-child(2){
 }
 
 #left-img-01{
-	background: url(http://cdn1.theodysseyonline.com/files/2016/02/21/635916917083298269-1765574240_Lazy-Cat.jpg);
+	background: url(https://cdn.pixabay.com/photo/2016/11/02/10/04/france-1790999_1280.jpg);
 	width: 50%;
 	height: 100%;
 	position: absolute;
@@ -137,7 +143,7 @@ body > :nth-child(2){
 }
 
 #left-img-03{
-	background: url(http://wallpoper.com/images/00/44/30/30/lazy-day_00443030.jpg);
+	background: url(https://cdn.pixabay.com/photo/2016/12/15/07/54/horseshoe-bend-1908283_1280.jpg);
 	width: 50%;
 	height: 100%;
 	position: absolute;
@@ -153,27 +159,30 @@ body > :nth-child(2){
 	font-size: 70px;
 	width: 60%;
 	margin: 80px 80px;
+	padding: 0 50px 0 0;
+	font-family: 'Oswald', sans-serif;
 }
 
 .author{
 	display: block;
-	color: rgb(242,73,29);
+	color: #82c2c5;
 	font-size: 25px;
 	margin:30px 0;
 	text-align: center;	
 	position: relative;
 	width: 100%;
+	font-family: 'Dancing Script', cursive;
 }
 
 .author:before{
 	content: " ";
 	height: 1px;
 	width: 80px;
-	border-bottom: 2px #000 solid;
+	border-bottom: 2px #fff solid;
 	position: absolute;
 	transform:translate(0,-50%);
 	top:50%;
-	left:200px;
+	left:170px;
 }
 
 .number{
